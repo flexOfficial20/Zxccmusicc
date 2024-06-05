@@ -9,10 +9,10 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("14691251"))
+API_HASH = getenv("ce7153b02b496253947872656b3ee0d3")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7144502616:AAFnY7CTnEi5466S738lAJGsgHxWMDPXU-Y")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Qweibie")
 # --------------------------------------------------------
@@ -26,7 +26,7 @@ ASSUSERNAME = getenv("ASSUSERNAME" , "MissYumikoo")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Epic2:w85NP8dEHmQxA5s7@cluster0.tttvsf9.mongodb.net/?retryWrites=true&w=majority")
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -45,9 +45,9 @@ OWNER_ID = int(getenv("OWNER_ID", 5702598840))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = getenv("zxc-music-opx")
 # ----------------------------------------------------------------
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = getenv("HRKU-f768e60f-b57f-4587-81f1-110a599578fa")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -114,7 +114,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQBh-gduVGVdNQE8R1ruaWRcRZWx-60r3XrLN6GsicLLv3Rdv5VAkGFQcN2VOsNS9YvCvXi4ebl3n8tGWj53Gg7luVz9bqEqobAe3OaYev_GjivmvvUgU-MVqn1qdf-j5G6MtnRHIIoB6Wg9obBlRmIzALLmAonxXA7eahuq1yYkJKeafdmMs3zgTbN328sFzzBO0ZMKAtNGPoEUBrODrBpsXXXlz8kJ_Wc7eGhzm7-GLpO0g42E1a_OD2-6jwJeBil72cVgDih7c2nr0ivyzSVRLHhlQhM7FMuUH-SYn0mU68SYJ54OS-phJyCVcJN4M4v3PEz8XJPhjJs4DB0dUiAAAAAaHT6kUA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
